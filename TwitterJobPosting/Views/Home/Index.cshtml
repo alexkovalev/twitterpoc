@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var status in ViewBag.statuses)
+{
+    @Html.Raw(status)
+}
